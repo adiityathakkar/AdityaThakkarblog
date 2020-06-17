@@ -1,6 +1,6 @@
 
 body{
-  margin-top: 0;
+  margin: 0;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
@@ -11,7 +11,11 @@ hr{
    border-top: 3px dotted #bbb;
    width: 4%;
 }
+a{
+  color: #11999E;
+  text-decoration: none;
 
+}
 h1{
   margin: 50px auto 0 auto;
   font-family: 'Dancing Script', cursive;
@@ -23,6 +27,7 @@ p{
   font-size: 1.5em;
   font-weight: bold;
   line-height: 2;
+
 }
 h2{
   color:#66BFBF;
@@ -51,6 +56,13 @@ padding: 50px 0 20px;
   margin: 100px auto;
   text-align: left;
 
+}
+/*.responsive {
+  width: 100%;
+  height: auto;
+}*/
+.copyrights{
+  font-size:10px;
 }
 
 
@@ -90,8 +102,8 @@ padding: 50px 0 20px;
 }
 .contact-message{
   margin: auto;
-  width: 40%;
-  margin-bottom: 100px;
+  width: 30%;
+  margin-bottom:20px;
 }
 .btn {
   background: #38d9c6;
